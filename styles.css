@@ -355,12 +355,12 @@ section h2.sec {
 }
 
 .pbtn::before {
-  content:"\25B6\00A0";
+  content:"\25B6\FE0E\00A0";
   font-size:0.75em;
 }
 
 .pbtn.active::before {
-  content:"\25BC\00A0";
+  content:"\25BC\FE0E\00A0";
 }
 
 .pbtn:hover {
