@@ -289,12 +289,27 @@ header ul.two-links li:last-child {
   border-right:none;
 }
 
-section h2 {
-  margin:36px 0 22px;
+section h2.sec {
+  font-size:13px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:0.14em;
+  border-bottom:1px solid #e5e5e5;
+  padding-bottom:8px;
+  margin:42px 0 24px;
 }
 
-section h2:first-of-type {
+section h2.sec:first-of-type {
   margin-top:30px;
+}
+
+.sec-wp {
+  color:#39c;
+  border-bottom-color:#cfe4f0;
+}
+
+.sec-wip {
+  color:#8a8a8a;
 }
 
 .paper {
