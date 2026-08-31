@@ -38,12 +38,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267cb9;
+  color:#a51c30;
   text-decoration:none;
 }
 
 a:hover {
-  color:#1a5a8a;
+  color:#7a1424;
 }
 
 a small {
@@ -344,7 +344,7 @@ section h2.sec {
   display:inline-block;
   font-size:14px;
   font-family:inherit;
-  color:#0066cc;
+  color:#a51c30;
   background:none;
   border:none;
   padding:0;
@@ -364,7 +364,7 @@ section h2.sec {
 }
 
 .pbtn:hover {
-  color:#0066cc;
+  color:#7a1424;
   text-decoration:underline;
 }
 
