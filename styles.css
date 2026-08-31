@@ -38,12 +38,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#a51c30;
+  color:#1f4e79;
   text-decoration:none;
 }
 
 a:hover {
-  color:#7a1424;
+  color:#142f4b;
 }
 
 a small {
@@ -305,7 +305,7 @@ section h2.sec {
 }
 
 .paper-title {
-  font-size:14px;
+  font-size:16px;
   font-weight:500;
   color:#222;
   line-height:1.35;
@@ -344,7 +344,7 @@ section h2.sec {
   display:inline-block;
   font-size:14px;
   font-family:inherit;
-  color:#a51c30;
+  color:#1f4e79;
   background:none;
   border:none;
   padding:0;
@@ -355,7 +355,7 @@ section h2.sec {
 }
 
 .pbtn:hover {
-  color:#7a1424;
+  color:#142f4b;
   text-decoration:underline;
 }
 
