@@ -354,15 +354,6 @@ section h2.sec {
   user-select:none;
 }
 
-.pbtn::before {
-  content:"\25B6\FE0E\00A0";
-  font-size:0.75em;
-}
-
-.pbtn.active::before {
-  content:"\25BC\FE0E\00A0";
-}
-
 .pbtn:hover {
   color:#7a1424;
   text-decoration:underline;
