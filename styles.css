@@ -305,7 +305,7 @@ section h2.sec {
 }
 
 .paper-title {
-  font-size:16px;
+  font-size:18px;
   font-weight:500;
   color:#222;
   line-height:1.35;
@@ -342,21 +342,29 @@ section h2.sec {
 
 .pbtn {
   display:inline-block;
-  font-size:14px;
+  font-size:11px;
   font-family:inherit;
-  color:#1f4e79;
-  background:none;
-  border:none;
-  padding:0;
-  margin:0 14px 4px 0;
+  color:#666;
+  background:#f4f4f4;
+  border:1px solid #e0e0e0;
+  border-radius:3px;
+  padding:2px 10px;
+  margin:0 6px 4px 0;
   cursor:pointer;
   -webkit-user-select:none;
   user-select:none;
 }
 
 .pbtn:hover {
-  color:#142f4b;
-  text-decoration:underline;
+  color:#1f4e79;
+  border-color:#b9c6d2;
+  text-decoration:none;
+}
+
+.pbtn.active {
+  background:#e9eef3;
+  border-color:#b9c6d2;
+  color:#1f4e79;
 }
 
 .panel {
