@@ -289,8 +289,16 @@ header ul.two-links li:last-child {
   border-right:none;
 }
 
+section h2 {
+  margin:36px 0 22px;
+}
+
+section h2:first-of-type {
+  margin-top:30px;
+}
+
 .paper {
-  margin:0 0 24px;
+  margin:0 0 26px;
 }
 
 .paper-title {
@@ -337,7 +345,7 @@ header ul.two-links li:last-child {
   border:1px solid #e0e0e0;
   border-radius:3px;
   padding:2px 10px;
-  margin:0 6px 0 0;
+  margin:0 6px 4px 0;
   cursor:pointer;
   -webkit-user-select:none;
   user-select:none;
@@ -356,7 +364,7 @@ header ul.two-links li:last-child {
 .panel {
   display:none;
   margin:10px 0 0;
-  padding:2px 0 2px 12px;
+  padding:2px 0 2px 14px;
   border-left:2px solid #e5e5e5;
   font-size:13px;
   line-height:1.55;
