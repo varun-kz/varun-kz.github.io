@@ -306,10 +306,11 @@ section h2.sec {
 
 .paper-title {
   font-size:18px;
-  font-weight:500;
+  font-weight:700;
   color:#222;
   line-height:1.35;
   margin:0;
+  text-align:left;
 }
 
 .paper-title a {
@@ -324,6 +325,7 @@ section h2.sec {
   font-size:13px;
   color:#777;
   margin:2px 0 0;
+  text-align:left;
 }
 
 .paper-authors a {
