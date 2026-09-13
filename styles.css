@@ -58,7 +58,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:1140px;
+  width:auto;
+  max-width:1440px;
   margin:0 auto;
 }
 
@@ -173,8 +174,9 @@ header ul a strong {
 }
 
 section {
-  width:780px;
-  float:right;
+  width:auto;
+  float:none;
+  margin-left:350px;
   padding-bottom:50px;
 }
 
@@ -197,7 +199,7 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 1240px) {
+@media print, screen and (max-width: 900px) {
 
   div.wrapper {
     width:auto;
@@ -208,6 +210,10 @@ footer {
     float:none;
     position:static;
     width:auto;
+  }
+
+  section {
+    margin-left:0;
   }
 
   header {
