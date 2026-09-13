@@ -191,12 +191,23 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+.theme-credit {
+  margin-top:35px;
+  color:#aaa;
+}
+
+.theme-credit a {
+  color:#aaa;
+}
+
+.theme-credit a:hover {
+  color:#1f4e79;
+}
+
+@media (max-width: 900px) {
+  .theme-credit {
+    display:none;
+  }
 }
 
 @media print, screen and (max-width: 900px) {
